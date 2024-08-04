@@ -5,7 +5,7 @@ def search_word(dictionary, word):
     return dictionary.get(word, "Word not found")
 
 def find_words_with_meaning(dictionary, meaning):
-     answer= [word for word, mean in dictionary.items() if mean == meaning]
+    answer= [word for word, mean in dictionary.items() if mean == meaning]
     if answer==[]:
         return ("Not found")
     else:
